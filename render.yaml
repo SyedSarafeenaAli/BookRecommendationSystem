@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: movie-recommendation-system
+    name: book-recommendation-system
     env: python
     buildCommand: ""
     startCommand: streamlit run app.py
